@@ -1,8 +1,6 @@
 # Permissionix
 
-[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]  
-[![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)  
-[![License: MIT][license_badge]][license_link]  
+[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]  [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)  [![License: BSD 3-Clause][license_badge]][license_link]  
 
 A lightweight and flexible package for managing user permissions in Flutter applications.
 
@@ -80,33 +78,6 @@ By default, every push and pull request triggers:
 - Linting (using [Very Good Analysis][very_good_analysis_link])
 - Unit tests with coverage enforcement
 
----
-
-## Running Tests 🧪
-
-First-time users should install the [very_good_cli][very_good_cli_link]:
-
-```sh
-dart pub global activate very_good_cli
-```
-
-To run tests:
-
-```sh
-very_good test --coverage
-```
-
-To generate and view the coverage report:
-
-```sh
-# Generate Coverage Report
-genhtml coverage/lcov.info -o coverage/
-
-# Open Coverage Report
-open coverage/index.html
-```
-
----
 
 ## License 📄
 
@@ -116,8 +87,8 @@ Permissionix is released under the [MIT License][license_link].
 
 [flutter_install_link]: https://docs.flutter.dev/get-started/install
 [github_actions_link]: https://docs.github.com/en/actions/learn-github-actions
-[license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license_link]: https://opensource.org/licenses/MIT
+[license_badge]: https://img.shields.io/badge/license-BSD--3--Clause-blue.svg
+[license_link]: https://opensource.org/licenses/BSD-3-Clause
 [very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
 [very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
 [very_good_cli_link]: https://pub.dev/packages/very_good_cli
