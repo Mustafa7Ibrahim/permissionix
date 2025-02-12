@@ -1,7 +1,9 @@
 name: permissionix
 description: A simple package to handle user permissions for accessing a feature
 version: 0.1.0+1
-
+homepage: https://github.com/Mustafa7Ibrahim/permissionix/blob/main/LICENSE
+repository: https://github.com/Mustafa7Ibrahim/permissionix
+issue_tracker: https://github.com/Mustafa7Ibrahim/permissionix/issues
 
 environment:
   sdk: ^3.5.0
